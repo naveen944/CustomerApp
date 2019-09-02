@@ -5,7 +5,7 @@
 	<artifactId>CustomerApp</artifactId>
 	<packaging>war</packaging>
 	<version>1.2</version>
-	<name>CustomerApp mvc maven</name>
+	<name>mvc maven</name>
 
 	<properties>
 		<jdk.version>1.6</jdk.version>
@@ -16,15 +16,15 @@
 	<dependencies>
 
 		<dependency>
-			<groupId>org.Servlet</groupId>
-			<artifactId>CustomerApp</artifactId>
+			<groupId>org.springframework.web.servlet.DispatcherServlet</groupId>
+			<artifactId>springmvc</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
 
 		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>jstl</artifactId>
-			<version>${jstl.version}</version>
+			<groupId>springmvc</groupId>
+			<artifactId>/</artifactId>
+			<version></version>
 		</dependency>
 
 	</dependencies>
@@ -62,7 +62,7 @@
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>true</downloadJavadocs>
 					<wtpversion>2.0</wtpversion>
-					<wtpContextName>spring3</wtpContextName>
+					<wtpContextName>servlet</wtpContextName>
 				</configuration>
 			</plugin>
 			
